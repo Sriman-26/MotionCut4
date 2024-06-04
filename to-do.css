@@ -1,0 +1,62 @@
+.main-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0%;
+}
+
+h1 {
+    background: lavenderblush;
+    color: black;
+    box-shadow: 10px 5px 8px green;
+    padding: 30px;
+    text-align: center;
+}
+
+.action-wrapper {
+    padding: 30px;
+}
+
+.action-wrapper input {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid violet;
+}
+
+.action-wrapper button,
+.item-actions button {
+    padding: 12px;
+    background-color: orange;
+    color: rgb(228, 239, 228);
+    font-weight: bolder;
+    border: solid 1px rgb(19, 20, 20);
+    border-radius: 9px;
+}
+
+.action-wrapper button:hover,
+.item-actions button:hover {
+    background-color: lavender;
+    color: black;
+    border: rgb(10, 18, 17) 1px solid;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.list-item {
+    width: 100%;
+    margin: 20px 0%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-name {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+body {
+    background: lightcyan;
+}
